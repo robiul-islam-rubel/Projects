@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserRegistrationForm</title>
+    <style>
+         .login{
+          width:950px ;
+          height: 500px;
+          margin: 100px;
+
+         }
+
+
+
+        h1{
+            font-weight: bold;
+           /* text-align: center;*/
+        }
+        p{
+            color: rgb(81, 122, 122);
+        }
+       .half{
+           width: 30%;
+       }
+       .full{
+
+        width: 50%;
+       }
+
+       .Padding
+       {
+             padding-top: 5px;
+            padding-right: 3px;
+             padding-bottom: 5px;
+            padding-left: 8px;
+           margin: left 0;
+       }
+       .f{
+         	padding-top: 50px;
+            padding-right: 30px;
+             padding-bottom: 50px;
+            padding-left: 80px;
+
+       }
+       .season{
+         color:MediumSeaGreen;
+       }
+    </style>
+
+
+</head>
+<body>
+
+    <div class="login" >
+
+        <h1><b>User Registration</b></h1>
+    <form >
+        
+       <div>
+        <input type="text" class="full Padding" name="First_name"placeholder="First Name">
+      
+      
+        <input type="text" class="half Padding" name="Last_name"placeholder="Last Name">
+      <br><br> 
+       </div>
+         
+        
+      <input type="email" class="half Padding" name="email" placeholder="Email" > 
+      <br><br> 
+       
+      <input type="passward" class="half Padding" name="password" placeholder="Password"> <br><br> 
+      <input type="passward" class="half Padding" name="password" placeholder="Confirm Password"> <br><br> 
+
+
+      <p class="full">I accept the <span class="season">Term of Use</span>  & <span class="season">Privacy Policy</span> .</p>
+      <input type="Submit" class="half Padding" value="Register Now" style="background-color:MediumSeaGreen;" name="btn"><br>
+      <h2>Already have an account? <u>Sign In</u></h2>
+    </form>
+
+
+    </div>
+    
+</body>
+</html>
